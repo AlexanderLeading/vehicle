@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/v-service-vehicle/v-service-vehicle.iml" filepath="$PROJECT_DIR$/v-service-vehicle/v-service-vehicle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v-service-vehicle1/v-service-vehicle1.iml" filepath="$PROJECT_DIR$/v-service-vehicle1/v-service-vehicle1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v-test/v-test.iml" filepath="$PROJECT_DIR$/v-test/v-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vehicle.iml" filepath="$PROJECT_DIR$/vehicle.iml" />
+    </modules>
+  </component>
+</project>
