@@ -35,3 +35,269 @@ java.net.ConnectException: Connection timed out: no further information
 	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
 	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
 2018-01-15 06:23:48,974	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:24:09,969	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:24:11,069	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:24:32,077	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:24:33,177	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:24:54,172	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:24:55,272	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:25:16,274	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:25:17,375	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:25:38,374	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:25:39,475	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:26:00,472	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:26:01,573	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:26:22,575	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:26:23,675	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:26:44,677	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:26:45,777	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:27:06,779	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:27:07,879	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:27:28,883	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:27:29,983	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:27:50,984	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:27:52,084	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:28:13,095	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:28:14,195	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:28:35,195	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:28:36,295	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:28:57,296	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:28:58,396	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:29:19,393	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:29:20,493	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:29:41,489	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:29:42,589	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:30:03,591	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:30:04,691	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:30:25,695	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:30:26,795	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:30:47,796	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:30:48,897	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:31:09,901	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:31:11,001	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:31:32,009	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:31:33,109	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:31:54,106	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:31:55,206	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:32:16,211	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:32:17,312	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:32:38,306	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:32:39,406	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:33:00,406	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:33:01,506	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:33:22,511	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:33:23,611	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:33:44,611	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:33:45,711	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:34:06,711	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:34:07,811	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:34:28,816	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:34:29,916	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:34:50,917	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:34:52,018	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:35:13,021	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:35:14,121	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:35:35,120	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:35:36,220	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:35:57,221	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:35:58,321	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:36:19,328	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:36:20,428	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:36:41,423	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:36:42,523	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:37:03,525	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:37:04,625	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:37:25,629	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:37:26,729	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-15 06:37:47,725	WARN	[main-SendThread(192.168.6.1:2181)]	Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2018-01-15 06:37:48,826	INFO	[main-SendThread(192.168.6.1:2181)]	Opening socket connection to server 192.168.6.1/192.168.6.1:2181. Will not attempt to authenticate using SASL (unknown error)
