@@ -15,7 +15,14 @@ public class Main {
         ApplicationContext context = new ClassPathXmlApplicationContext(
                 "classpath:spring.xml");// 此文件
         logger.info("[车辆基础服务1][服务启动成功1]");
-
+        try {
+            while (true) {
+                Thread.sleep(10000);
+            }
+        } catch (Exception e) {
+            logger.error(e.getMessage());
+            e.printStackTrace();
+        }
 
     }
 }

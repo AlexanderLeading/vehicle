@@ -8,6 +8,7 @@ import com.vehicle.service.vehicle.client.model.Vehicle;
  */
 public class VehicleServiceImpl implements VehicleService {
     public Vehicle getVehicleByVin(String vin) throws Exception {
+        System.out.println("调用vehicle方法!");
         //
         Vehicle v = new Vehicle();
         v.setLince("京A888888");

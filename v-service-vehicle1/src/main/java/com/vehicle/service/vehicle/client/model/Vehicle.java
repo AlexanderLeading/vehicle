@@ -1,4 +1,4 @@
-package com.vehicle.service.vehicle1.client.model;
+package com.vehicle.service.vehicle.client.model;
 
 import java.io.Serializable;
 import java.util.List;

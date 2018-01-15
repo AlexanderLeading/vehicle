@@ -1,6 +1,6 @@
-package com.vehicle.service.vehicle1.client.api;
+package com.vehicle.service.vehicle.client.api;
 
-import com.vehicle.service.vehicle1.client.model.Vehicle;
+import com.vehicle.service.vehicle.client.model.Vehicle;
 
 /**
  * Created by Shinelon on 2018/1/14.
