@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+	<!-- 此处配置 mysql的jdbc驱动jar包,配置为当前用户的绝对路径 -->
+	<classPathEntry
+		location="E:\车联网项目\mysql-connector-java-5.1.44-bin.jar" />
+
+	<context id="MySql2Tables" targetRuntime="MyBatis3"
+		defaultModelType="flat">
+		<plugin type="org.mybatis.generator.PaginationPlugin"></plugin>
+		<plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin" />
+		<plugin type="org.mybatis.generator.plugins.SerializablePlugin" />
+		<plugin type="org.mybatis.generator.plugins.CaseInsensitiveLikePlugin"></plugin>
+		<plugin type="org.mybatis.generator.InsertAndUpdateBatch"></plugin>
+		<!-- <plugin type="org.mybatis.generator.plugins.RenameExampleClassPlugin"> 
+			<property name="searchString" value="Example$" /> <property name="replaceString" 
+			value="Criteria" /> </plugin> -->
+		<!-- <plugin type="org.mybatis.generator.SelectByPagePlugin" /> -->
+		<commentGenerator>
+			<property name="suppressAllComments" value="true" />
+			<property name="suppressDate" value="false" />
+		</commentGenerator>
+		<!-- 此处配置 需要生成代码的数据库 -->
+		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
+			connectionURL="jdbc:mysql://47.94.90.165:3306/carmanager?useUnicode=true&amp;characterEncoding=UTF-8"
+			userId="root" password="root" />
+		<javaTypeResolver>
+			<property name="forceBigDecimals" value="false" />
+		</javaTypeResolver>
+		<!-- 此处配置生成model实体文件 -->
+		<javaModelGenerator targetPackage="com.ruizhua.paw.model"
+			targetProject="G:\workspace\paw\src\main\java">
+			<property name="enableSubPackages" value="false" />
+			<property name="trimStrings" value="true" />
+		</javaModelGenerator>
+		<!-- 此处配置生成mapper.xml文件 如果原有mapper.xml文件中有自定义接口 此处需要注释掉 或者将自定义接口进行备份 -->
+		<sqlMapGenerator targetPackage="com.ruizhua.paw.mapper"
+			targetProject="G:\workspace\paw\src\main\java">
+			<property name="enableSubPackages" value="false" />
+		</sqlMapGenerator>
+		<!-- 配置生成DAO层代码 若不需要生成DAO层代码或者DAO存在自定义的方法 为防止被覆盖掉 此处需要注释 -->
+		<javaClientGenerator type="XMLMAPPER"
+			targetPackage="com.ruizhua.paw.dao" targetProject="G:\workspace\paw\src\main\java">
+			<property name="enableSubPackages" value="false" />
+		</javaClientGenerator>
+
+		<table tableName="cmn_banner" schema="" enableCountByExample="true"
+			domainObjectName="Banner" enableUpdateByExample="true"
+			enableDeleteByExample="true" enableSelectByExample="true"
+			selectByExampleQueryId="true">
+			<generatedKey column="id" sqlStatement="Mysql" identity="true" />
+		</table>
+
+		<table tableName="cmn_data_item" schema="" enableCountByExample="true"
+			domainObjectName="DataItem" enableUpdateByExample="true"
+			enableDeleteByExample="true" enableSelectByExample="true"
+			selectByExampleQueryId="true">
+			<generatedKey column="id" sqlStatement="Mysql" identity="true" />
+		</table>
+
+		<table tableName="cmn_data_type" schema="" enableCountByExample="true"
+			domainObjectName="DataType" enableUpdateByExample="true"
+			enableDeleteByExample="true" enableSelectByExample="true"
+			selectByExampleQueryId="true">
+			<generatedKey column="id" sqlStatement="Mysql" identity="true" />
+		</table>
+
+		<table tableName="cmn_login_record" schema=""
+			enableCountByExample="true" domainObjectName="LoginRecord"
+			enableUpdateByExample="true" enableDeleteByExample="true"
+			enableSelectByExample="true" selectByExampleQueryId="true">
+			<generatedKey column="id" sqlStatement="Mysql" identity="true" />
+		</table>
+
+		<table tableName="crs_browse_record" schema=""
+			enableCountByExample="true" domainObjectName="BrowseRecord"
+			enableUpdateByExample="true" enableDeleteByExample="true"
+			enableSelectByExample="true" selectByExampleQueryId="true">
+			<generatedKey column="id" sqlStatement="Mysql" identity="true" />
+		</table>
+
+		<table tableName="crs_catalog" schema="" enableCountByExample="true"
+			domainObjectName="Catalog" enableUpdateByExample="true"
+			enableDeleteByExample="true" enableSelectByExample="true"
+			selectByExampleQueryId="true">
+			<generatedKey column="id" sqlStatement="Mysql" identity="true" />
+		</table>
+
+		<table tableName="crs_chapter" schema="" enableCountByExample="true"
+			domainObjectName="Chapter" enableUpdateByExample="true"
+			enableDeleteByExample="true" enableSelectByExample="true"
+			selectByExampleQueryId="true">
+			<generatedKey column="id" sqlStatement="Mysql" identity="true" />
+		</table>
+
+		<table tableName="crs_consultation" schema=""
+			enableCountByExample="true" domainObjectName="Consultation"
+			enableUpdateByExample="true" enableDeleteByExample="true"
+			enableSelectByExample="true" selectByExampleQueryId="true">
+			<generatedKey column="id" sqlStatement="Mysql" identity="true" />
+		</table>
+
+		<table tableName="crs_consultation_praise" schema=""
+			enableCountByExample="true" domainObjectName="ConsultationPraise"
+			enableUpdateByExample="true" enableDeleteByExample="true"
+			enableSelectByExample="true" selectByExampleQueryId="true">
+			<generatedKey column="id" sqlStatement="Mysql" identity="true" />
+		</table>
+
+		<table tableName="crs_course" schema="" enableCountByExample="true"
+			domainObjectName="Course" enableUpdateByExample="true"
+			enableDeleteByExample="true" enableSelectByExample="true"
+			selectByExampleQueryId="true">
+			<generatedKey column="id" sqlStatement="Mysql" identity="true" />
+		</table>
+
+		<table tableName="crs_evaluate" schema="" enableCountByExample="true"
+			domainObjectName="Evaluate" enableUpdateByExample="true"
+			enableDeleteByExample="true" enableSelectByExample="true"
+			selectByExampleQueryId="true">
+			<generatedKey column="id" sqlStatement="Mysql" identity="true" />
+		</table>
+
+		<table tableName="crs_materials" schema="" enableCountByExample="true"
+			domainObjectName="materials" enableUpdateByExample="true"
+			enableDeleteByExample="true" enableSelectByExample="true"
+			selectByExampleQueryId="true">
+			<generatedKey column="id" sqlStatement="Mysql" identity="true" />
+		</table>
+
+		<table tableName="crs_profession" schema=""
+			enableCountByExample="true" domainObjectName="Profession"
+			enableUpdateByExample="true" enableDeleteByExample="true"
+			enableSelectByExample="true" selectByExampleQueryId="true">
+			<generatedKey column="id" sqlStatement="Mysql" identity="true" />
+		</table>
+
+		<table tableName="crs_profession_course" schema=""
+			enableCountByExample="true" domainObjectName="ProfessionCourse"
+			enableUpdateByExample="true" enableDeleteByExample="true"
+			enableSelectByExample="true" selectByExampleQueryId="true">
+			<generatedKey column="id" sqlStatement="Mysql" identity="true" />
+		</table>
+
+		<table tableName="ctm_customer" schema="" enableCountByExample="true"
+			domainObjectName="Customer" enableUpdateByExample="true"
+			enableDeleteByExample="true" enableSelectByExample="true"
+			selectByExampleQueryId="true">
+			<generatedKey column="id" sqlStatement="Mysql" identity="true" />
+		</table>
+
+		<table tableName="ctm_favorite" schema="" enableCountByExample="true"
+			domainObjectName="Favorite" enableUpdateByExample="true"
+			enableDeleteByExample="true" enableSelectByExample="true"
+			selectByExampleQueryId="true">
+			<generatedKey column="id" sqlStatement="Mysql" identity="true" />
+		</table>
+
+		<table tableName="ctm_lecturer" schema="" enableCountByExample="true"
+			domainObjectName="Lecturer" enableUpdateByExample="true"
+			enableDeleteByExample="true" enableSelectByExample="true"
+			selectByExampleQueryId="true">
+			<generatedKey column="id" sqlStatement="Mysql" identity="true" />
+		</table>
+
+		<table tableName="odr_order" schema="" enableCountByExample="true"
+			domainObjectName="Order" enableUpdateByExample="true"
+			enableDeleteByExample="true" enableSelectByExample="true"
+			selectByExampleQueryId="true">
+			<generatedKey column="id" sqlStatement="Mysql" identity="true" />
+		</table>
+
+		<table tableName="odr_order_item" schema=""
+			enableCountByExample="true" domainObjectName="OrderItem"
+			enableUpdateByExample="true" enableDeleteByExample="true"
+			enableSelectByExample="true" selectByExampleQueryId="true">
+			<generatedKey column="id" sqlStatement="Mysql" identity="true" />
+		</table>
+
+		<table tableName="odr_pay" schema="" enableCountByExample="true"
+			domainObjectName="Pay" enableUpdateByExample="true"
+			enableDeleteByExample="true" enableSelectByExample="true"
+			selectByExampleQueryId="true">
+			<generatedKey column="id" sqlStatement="Mysql" identity="true" />
+		</table>
+
+		<table tableName="odr_shopping_cart" schema=""
+			enableCountByExample="true" domainObjectName="ShoppingCart"
+			enableUpdateByExample="true" enableDeleteByExample="true"
+			enableSelectByExample="true" selectByExampleQueryId="true">
+			<generatedKey column="id" sqlStatement="Mysql" identity="true" />
+		</table>
+
+	</context>
+</generatorConfiguration>
