@@ -1,7 +1,7 @@
 package com.vehicle;
 
-import com.vehicle.service.vehicle.client.api.VehicleService;
-import com.vehicle.service.vehicle.client.model.Vehicle;
+import com.alexander.v.service.vehicle.client.api.VehicleService;
+import com.alexander.v.service.vehicle.client.model.Vehicle;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

@@ -10,7 +10,7 @@
 	<dubbo:registry address="zookeeper://${dubbo.zookeeper.url}" />
 
 	<dubbo:reference id="vehicleBaseService"
-		interface="com.vehicle.service.vehicle.client.api.VehicleService">
+		interface="com.alexander.v.service.vehicle.client.api.VehicleService">
 		<!-- <dubbo:method name="getPerson" async="false" /> -->
 	</dubbo:reference>
 </beans>

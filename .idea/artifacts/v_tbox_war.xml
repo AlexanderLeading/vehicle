@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="v-tbox:war">
+    <output-path>$PROJECT_DIR$/v-tbox/target</output-path>
+    <root id="archive" name="v-tbox.war">
+      <element id="artifact" artifact-name="v-tbox:war exploded" />
+    </root>
+  </artifact>
+</component>

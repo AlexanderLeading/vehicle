@@ -6,16 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="v-gateway" />
         <module name="v-service-vehicle" />
         <module name="v-service-vehicle1" />
+        <module name="v-tbox" />
         <module name="v-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="v-service-vehicle" target="1.5" />
-      <module name="v-service-vehicle1" target="1.5" />
-      <module name="v-test" target="1.5" />
-      <module name="vehicle" target="1.5" />
+      <module name="v-gateway" target="1.7" />
+      <module name="v-service-vehicle" target="1.7" />
+      <module name="v-service-vehicle1" target="1.7" />
+      <module name="v-tbox" target="1.7" />
+      <module name="v-test" target="1.7" />
+      <module name="vehicle" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
